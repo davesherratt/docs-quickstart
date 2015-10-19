@@ -51,7 +51,7 @@
 
 .. code-block:: ruby
 
-  zone = service.zones.all.find { |z| z.name == 'example.com' }
+  zone = service.zones.all.find { |z| z.domain == 'example.com' }
 
 .. code-block:: sh
 
